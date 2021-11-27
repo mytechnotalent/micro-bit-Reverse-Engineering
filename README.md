@@ -54,12 +54,12 @@ Right-Click Zip File & Unzip To Desktop
 
 ## STEP 3: Download & Install Java SDK
 ```
-Download Java SDK `https://download.oracle.com/java/XX/latest/jdk-XX_windows-x64_bin.msi`
+Download Java SDK https://download.oracle.com/java/XX/latest/jdk-XX_windows-x64_bin.msi
 ```
 
 ## STEP 4: Run Ghidra
 ```
-Double-Click `ghidraRun.bat`
+Double-Click ghidraRun.bat
 Bypass Windows Prompt & Run
 ```
 
@@ -78,7 +78,7 @@ Click Next >>
 Project Directory: C:\Users\YOUR_USER\Desktop\micro-bit
 Project Name: micro-bit
 Click Finish
-Drag & Drop `MICROBIT` File Into Ghidra App Into Active Project: micro-bit Folder
+Drag & Drop MICROBIT File Into Ghidra App Into Active Project: micro-bit Folder
 Click OK
 Click OK
 Double-Click MICROBIT
@@ -100,7 +100,7 @@ In Decompile:main Tab, Observe Line `codal::AnimatedDisplay::scroll(&uBit.displa
 Double-Click On The Above Code Line, Click `codal`
 In Decompile:main Tab, Right-Click `0001c6cc 78 22           movs       r2,#0x78`, Patch Instruction, Click OK
 Visit https://lancaster-university.github.io/microbit-docs/ubit/display/#scroll (micro:bit runtime API)
-Change `0x78` to `0xd8`, Press Enter (Will Slow Down Animation)
+Change 0x78 to 0xd8, Press Enter (Will Slow Down Animation)
 Click File, Export Program...
 Format: ELF
 Output File: C:\Users\YOUR_USER\Desktop\MICROBIT-hack
