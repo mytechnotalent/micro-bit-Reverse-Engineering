@@ -12,11 +12,16 @@ A micro:bit entry-level Reverse Engineering tutorial code repo which was present
 
 ## How To Install CODAL Build Tools
 ### Install WSL (Windows Users) Windows Command Prompt
-```wsl --install```
+```bash
+wsl --install
+```
 
 ### Git Clone microbit-v2-samples (Inside WSL)
 ```bash
+cd
+cd Documents
 git clone https://github.com/lancaster-university/microbit-v2-samples
+cd microbit-v2-samples
 ```
 
 ### Install ARM Build Tools (Inside WSL)
@@ -26,6 +31,14 @@ sudo apt install git
 sudo apt install cmake
 sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
 ```
+
+### Build micro:bit CODAL Samples & Copy Binaries To Windows Desktop (Inside WSL)
+```bash
+python3 build.py
+cp MICROBIT.hex /mnt/c/Users/YOUR_USER/Desktop
+cp build/MICROBIT /mnt/c/Users/YOUR_USER/Desktop/
+```
+
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
