@@ -14,9 +14,17 @@ A micro:bit entry-level Reverse Engineering tutorial code repo which was present
 ### Install WSL (Windows Users) Windows Command Prompt
 ```wsl --install```
 
-### Git Clone 
+### Git Clone microbit-v2-samples (Inside WSL)
 ```bash
-iex "& { $(irm 'https://storage.googleapis.com/flow-cli/install.ps1') }"
+git clone https://github.com/lancaster-university/microbit-v2-samples
+```
+
+### Install ARM Build Tools (Inside WSL)
+```bash
+sudo apt install gcc
+sudo apt install git
+sudo apt install cmake
+sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
 ```
 
 ## License
