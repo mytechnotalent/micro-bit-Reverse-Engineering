@@ -84,16 +84,31 @@ Active Project: micro-bit Folder
 ### Double-Click main In Exports Folder Within Symbol Tree (Left-Hand Side)
 ### In Decompile:main Tab, Double-Click "HELLO WORLD"
 ### Click Window Menu - Bytes: MICROBIT
-### Visit https://www.asciitable.com 
+### Visit https://www.asciitable.com (ASCII Table)
 ### In Listing: MICROBIT Tab, Left-Click 48 (48 45 4c)
 ### In Bytes: MICROBIT Window, Click Paper/Pencil Icon, 4 In 48 Will Blink
 ### Type 48 41 43 4b 59 (Turns HELLO into HACKY)
 ### In Decompile:main Tab, Observe Line `codal::AnimatedDisplay::scroll(&uBit.display.super_AnimatedDisplay,aMStack12,0x78);`
-3)Bytes: MICROBIT click paper the cursor will turn blue
-4)Show ASCII Table
-5)HACKY WORLD! 48 41 43 4b 59
-6)Export ELF
-7)arm-none-eabi-objcopy -O ihex MICROBIT MICROBIT.hex
+### Double-Click On The Above Code Line, Click `codal`
+### In Decompile:main Tab, Right-Click `0001c6cc 78 22           movs       r2,#0x78`, Patch Instruction, Click OK
+### Visit https://lancaster-university.github.io/microbit-docs/ubit/display/#scroll (micro:bit runtime API)
+### Change `0x78` to `0xd8`, Press Enter (Will Slow Down Animation)
+### Click File, Export Program...
+### Format: ELF
+### Output File: C:\Users\YOUR_USER\Desktop\MICROBIT-hack
+### Click OK
+
+## STEP 8: Copy `MICROBIT-hack` To WSL (Inside WSL)
+```bash
+cp /mnt/c/Users/YOUR_USER/Desktop/MICROBIT-hack .
+arm-none-eabi-objcopy -O ihex MICROBIT-hack MICROBIT-hack.hex
+cp MICROBIT-hack.hex /mnt/c/Users/YOUR_USER/Desktop
+```
+
+## STEP 9: Flash `MICROBIT-hack.hex` To micro:bit (Windows Command Prompt)
+```bash
+cp MICROBIT-hack.hex E:
+```
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
