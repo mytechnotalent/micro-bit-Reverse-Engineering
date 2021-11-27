@@ -45,6 +45,36 @@ cd Desktop
 cp MICROBIT.hex E:
 ```
 
+## STEP 2: Download & Extract Ghidra To Windows Desktop
+### Visit https://github.com/NationalSecurityAgency/ghidra/releases
+### Download `ghidra_XX.X-BETA_PUBLIC_XXXXXXXX.zip`
+### Right-Click Zip File & Unzip To Desktop
+
+## STEP 3: Download & Install Java SDK
+### Download Java SDK `https://download.oracle.com/java/XX/latest/jdk-XX_windows-x64_bin.msi`
+
+## STEP 4: Run Ghidra
+### Double-Click `ghidraRun.bat`
+### Bypass Windows Prompt & Run
+
+## STEP 5: Setup Ghidra Project (Windows Command Prompt)
+```bash
+cd Desktop
+mkdir micro-bit
+cp MICROBIT micro-bit
+```
+
+## STEP 6: Create & Run Ghidra Project (Ghidra Application)
+### File
+### New Project...
+### Next >>
+### Project Directory: C:\Users\YOUR_USER\Desktop\micro-bit
+### Project Name: micro-bit
+### Finish
+### Drag & Drop `MICROBIT` File Inside The `micro-bit` Directory Into Ghidra Application Active Project: micro-bit Folder
+### Click OK
+### Click OK
+### Double-Click MICROBIT
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
