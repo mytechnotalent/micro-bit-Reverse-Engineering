@@ -10,5 +10,14 @@ A micro:bit entry-level Reverse Engineering tutorial code repo which was present
 ## Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
 
+## How To Install CODAL Build Tools
+### Install WSL (Windows Users) Windows Command Prompt
+```wsl --install```
+
+### Git Clone 
+```bash
+iex "& { $(irm 'https://storage.googleapis.com/flow-cli/install.ps1') }"
+```
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
