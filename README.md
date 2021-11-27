@@ -65,14 +65,13 @@ cp MICROBIT micro-bit
 ```
 
 ## STEP 6: Create & Run Ghidra Project (Ghidra Application)
-### File
-### New Project...
-### Next >>
+### Click File
+### Click New Project...
+### Click Next >>
 ### Project Directory: C:\Users\YOUR_USER\Desktop\micro-bit
 ### Project Name: micro-bit
-### Finish
-### Drag & Drop `MICROBIT` File Into Ghidra App
-Active Project: micro-bit Folder
+### Click Finish
+### Drag & Drop `MICROBIT` File Into Ghidra App Into Active Project: micro-bit Folder
 ### Click OK
 ### Click OK
 ### Double-Click MICROBIT
