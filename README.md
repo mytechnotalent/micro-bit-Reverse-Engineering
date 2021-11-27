@@ -11,7 +11,7 @@ A micro:bit entry-level Reverse Engineering tutorial code repo which was present
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
 
 ## How To Install CODAL Build Tools
-### Install WSL (Windows Users) Windows Command Prompt
+### Install WSL (Windows Command Prompt)
 ```bash
 wsl --install
 ```
@@ -37,6 +37,12 @@ sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
 python3 build.py
 cp MICROBIT.hex /mnt/c/Users/YOUR_USER/Desktop
 cp build/MICROBIT /mnt/c/Users/YOUR_USER/Desktop/
+```
+
+## STEP 1: Flash `MICROBIT.hex` To micro:bit (Windows Command Prompt)
+```bash
+cd Desktop
+cp MICROBIT.hex E:
 ```
 
 
