@@ -110,5 +110,8 @@ cp MICROBIT-hack.hex /mnt/c/Users/YOUR_USER/Desktop
 cp MICROBIT-hack.hex E:
 ```
 
+## STEP 10: Save Ghidra Project
+### Click File, Exit Ghidra, Save
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
