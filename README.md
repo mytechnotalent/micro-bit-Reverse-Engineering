@@ -1,6 +1,6 @@
 ![image](https://github.com/mytechnotalent/micro-bit-Reverse-Engineering/blob/main/micro-bit%20Reverse%20Engineering.png?raw=true)
 
-# micro-bit
+# micro:bit
 # Reverse Engineering
 A micro:bit entry-level Reverse Engineering tutorial code repo which was presented at the 2021 micro:bit LIVE event.
 
