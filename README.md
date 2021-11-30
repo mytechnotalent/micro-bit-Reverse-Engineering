@@ -124,5 +124,11 @@ cp MICROBIT-hack.hex E:
 Click File, Exit Ghidra, Save
 ```
 
+## Additional micro:bit STEM Resources
+[Python For Kids](https://github.com/mytechnotalent/Python-For-Kids)
+[Study Buddy](https://github.com/mytechnotalent/MicroPython-micro-bit-Study-Buddy)
+[Talking TextaBot](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-TextaBot)
+[Talking Heads Or Tails](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-Heads-Or-Tails)
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
