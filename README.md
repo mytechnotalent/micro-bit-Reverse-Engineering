@@ -125,9 +125,9 @@ Click File, Exit Ghidra, Save
 ```
 
 ## Additional micro:bit STEM Resources
-[Python For Kids](https://github.com/mytechnotalent/Python-For-Kids)
-[Study Buddy](https://github.com/mytechnotalent/MicroPython-micro-bit-Study-Buddy)
-[Talking TextaBot](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-TextaBot)
+[Python For Kids](https://github.com/mytechnotalent/Python-For-Kids)<br>
+[Study Buddy](https://github.com/mytechnotalent/MicroPython-micro-bit-Study-Buddy)<br>
+[Talking TextaBot](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-TextaBot)<br>
 [Talking Heads Or Tails](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-Heads-Or-Tails)
 
 ## License
