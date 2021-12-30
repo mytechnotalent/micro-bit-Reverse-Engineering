@@ -4,6 +4,9 @@
 # Reverse Engineering
 A micro:bit entry-level Reverse Engineering tutorial code repo which was presented at the 2021 micro:bit LIVE event.
 
+## PROMOTIONAL VIDEO
+### WATCH NOW [HERE](https://youtu.be/lBreY02_BiE) ON YOUTUBE
+
 ## Schematic
 ![image](https://github.com/mytechnotalent/micro-bit-Reverse-Engineering/blob/main/schematic.png?raw=true)
 
