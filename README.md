@@ -4,14 +4,22 @@
 # Reverse Engineering
 A micro:bit entry-level Reverse Engineering tutorial code repo which was presented at the 2021 micro:bit LIVE event.
 
+<br>
+
 ## PROMOTIONAL VIDEO
 ### WATCH NOW [HERE](https://youtu.be/lBreY02_BiE) ON YOUTUBE
+
+<br>
 
 ## Schematic
 ![image](https://github.com/mytechnotalent/micro-bit-Reverse-Engineering/blob/main/schematic.png?raw=true)
 
+<br>
+
 ## Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
+
+<br>
 
 ## How To Install CODAL Build Tools
 ### Install WSL (Windows Command Prompt)
@@ -127,12 +135,16 @@ cp MICROBIT-hack.hex E:
 Click File, Exit Ghidra, Save
 ```
 
+<br>
+
 ## Additional micro:bit STEM Resources
 [Python For Kids](https://github.com/mytechnotalent/Python-For-Kids)<br>
 [Study Buddy](https://github.com/mytechnotalent/MicroPython-micro-bit-Study-Buddy)<br>
 [MicroCipher](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher)<br>
 [Talking TextaBot](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-TextaBot)<br>
 [Talking Heads Or Tails](https://github.com/mytechnotalent/MicroPython-micro-bit-Talking-Heads-Or-Tails)
+
+<br>
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
