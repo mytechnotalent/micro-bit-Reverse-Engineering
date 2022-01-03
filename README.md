@@ -50,6 +50,8 @@ cp MICROBIT.hex /mnt/c/Users/YOUR_USER/Desktop
 cp build/MICROBIT /mnt/c/Users/YOUR_USER/Desktop/
 ```
 
+<br>
+
 ## STEP 1: Flash `MICROBIT.hex` To micro:bit (Windows Command Prompt)
 ```bash
 cd Desktop
