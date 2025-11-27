@@ -11,23 +11,23 @@ A micro:bit entry-level Reverse Engineering tutorial code repo which was present
 
 <br>
 
-## Schematic
+# Schematic
 ![image](https://github.com/mytechnotalent/micro-bit-Reverse-Engineering/blob/main/schematic.png?raw=true)
 
 <br>
 
-## Parts
+# Parts
 [micro:bit](https://microbit.org/buy/?location=US&version=microbitV2)
 
 <br>
 
-## How To Install CODAL Build Tools
-### Install WSL (Windows Command Prompt)
+# How To Install CODAL Build Tools
+## Install WSL (Windows Command Prompt)
 ```bash
 wsl --install
 ```
 
-### Git Clone microbit-v2-samples (Inside WSL)
+## Git Clone microbit-v2-samples (Inside WSL)
 ```bash
 cd
 cd Documents
@@ -35,7 +35,7 @@ git clone https://github.com/lancaster-university/microbit-v2-samples
 cd microbit-v2-samples
 ```
 
-### Install ARM Build Tools (Inside WSL)
+## Install ARM Build Tools (Inside WSL)
 ```bash
 sudo apt install gcc
 sudo apt install git
@@ -43,7 +43,7 @@ sudo apt install cmake
 sudo apt install gcc-arm-none-eabi binutils-arm-none-eabi
 ```
 
-### Build micro:bit CODAL Samples & Copy Binaries To Windows Desktop (Inside WSL)
+## Build micro:bit CODAL Samples & Copy Binaries To Windows Desktop (Inside WSL)
 ```bash
 python3 build.py
 cp MICROBIT.hex /mnt/c/Users/YOUR_USER/Desktop
@@ -52,38 +52,38 @@ cp build/MICROBIT /mnt/c/Users/YOUR_USER/Desktop/
 
 <br>
 
-## STEP 1: Flash `MICROBIT.hex` To micro:bit (Windows Command Prompt)
+# STEP 1: Flash `MICROBIT.hex` To micro:bit (Windows Command Prompt)
 ```bash
 cd Desktop
 cp MICROBIT.hex E:
 ```
 
-## STEP 2: Download & Extract Ghidra To Windows Desktop
+# STEP 2: Download & Extract Ghidra To Windows Desktop
 ```
 Visit https://github.com/NationalSecurityAgency/ghidra/releases
 Download ghidra_XX.X-BETA_PUBLIC_XXXXXXXX.zip
 Right-Click Zip File & Unzip To Desktop
 ```
 
-## STEP 3: Download & Install Java SDK
+# STEP 3: Download & Install Java SDK
 ```
 Download Java SDK https://download.oracle.com/java/XX/latest/jdk-XX_windows-x64_bin.msi
 ```
 
-## STEP 4: Run Ghidra
+# STEP 4: Run Ghidra
 ```
 Double-Click ghidraRun.bat
 Bypass Windows Prompt & Run
 ```
 
-## STEP 5: Setup Ghidra Project (Windows Command Prompt)
+# STEP 5: Setup Ghidra Project (Windows Command Prompt)
 ```bash
 cd Desktop
 mkdir micro-bit
 cp MICROBIT micro-bit
 ```
 
-## STEP 6: Create & Run Ghidra Project (Ghidra Application)
+# STEP 6: Create & Run Ghidra Project (Ghidra Application)
 ```
 Click File
 Click New Project...
@@ -97,7 +97,7 @@ Click OK
 Double-Click MICROBIT
 ```
 
-## STEP 7: Reverse Engineer Ghidra micro-bit
+# STEP 7: Reverse Engineer Ghidra micro-bit
 ```
 Click Yes
 Click Analyze
@@ -120,26 +120,26 @@ Output File: C:\Users\YOUR_USER\Desktop\MICROBIT-hack
 Click OK
 ```
 
-## STEP 8: Copy `MICROBIT-hack` To WSL (Inside WSL)
+# STEP 8: Copy `MICROBIT-hack` To WSL (Inside WSL)
 ```bash
 cp /mnt/c/Users/YOUR_USER/Desktop/MICROBIT-hack .
 arm-none-eabi-objcopy -O ihex MICROBIT-hack MICROBIT-hack.hex
 cp MICROBIT-hack.hex /mnt/c/Users/YOUR_USER/Desktop
 ```
 
-## STEP 9: Flash `MICROBIT-hack.hex` To micro:bit (Windows Command Prompt)
+# STEP 9: Flash `MICROBIT-hack.hex` To micro:bit (Windows Command Prompt)
 ```bash
 cp MICROBIT-hack.hex E:
 ```
 
-## STEP 10: Save Ghidra Project
+# STEP 10: Save Ghidra Project
 ```
 Click File, Exit Ghidra, Save
 ```
 
 <br>
 
-## Additional micro:bit STEM Resources
+# Additional micro:bit STEM Resources
 [Python For Kids](https://github.com/mytechnotalent/Python-For-Kids)<br>
 [Study Buddy](https://github.com/mytechnotalent/MicroPython-micro-bit-Study-Buddy)<br>
 [MicroCipher](https://github.com/mytechnotalent/MicroPython-micro-bit-MicroCipher)<br>
@@ -148,5 +148,5 @@ Click File, Exit Ghidra, Save
 
 <br>
 
-## License
+# License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
